@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{margin:0;padding: 0;text-decoration: none;list-style: none;}
+		div{width: 850px;height: 500px;margin:0 auto;overflow: hidden;position: relative;margin-top: 100px;}
+		ul{width: 850px;height: 3000px;position: absolute;top:0;overflow: hidden;}
+		ul li{list-style: none;float: left}
+		ol{position: absolute;right:100px;bottom: 30px;}
+		ol li{width: 20px;height: 20px;background-color: #fff;margin-left: 5px;text-align: center;cursor:pointer;}
+		ol li.ac{background-color: red}
+		#goPrev{position: absolute;left:10px; top:40%;font-size: 68px;}
+		#goNext{position: absolute;right:10px; top:40%;font-size: 68px;}
+		img{width: 850px;height: 500px;}
+	</style>
+	<script type="text/javascript" src="js/tools.js"></script>
+</head>
+<body>
+	<div id='box'>
+		<ul>
+			<li><img src="img/1.jpg"></li>
+			<li><img src="img/2.jpg"></li>
+			<li><img src="img/3.jpg"></li>
+			<li><img src="img/4.jpg"></li>
+			<li><img src="img/5.jpg"></li>
+			<li><img src="img/1.jpg"></li>
+		</ul>
+		<ol></ol>
+		<a href="javascript:;" id="goPrev">&laquo;</a>
+		<a href="javascript:;" id="goNext">&raquo;</a>
+	</div>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
